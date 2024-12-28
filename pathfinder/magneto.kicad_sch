@@ -1100,7 +1100,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 187.96 90.17 0)
 			(effects
 				(font
@@ -1170,7 +1170,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 177.8 90.17 0)
 			(effects
 				(font
@@ -1369,7 +1369,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sensor_fuser:LGA-12"
+		(property "Footprint" "pathfinder:LGA-12"
 			(at 158.75 176.2 0)
 			(effects
 				(font
@@ -1804,7 +1804,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 111.76 95.25 0)
 			(effects
 				(font
