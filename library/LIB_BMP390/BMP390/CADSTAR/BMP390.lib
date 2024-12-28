@@ -1,0 +1,18 @@
+.BMP390 :1 ;Board Mount Pressure Sensors
+BMP390
+*STM IC
+*NGS
+*PLB 1="VDDIO" 2="SCK" 3="VSS_1" 4="SDI" 5="SDO" 6="CSB" 7="INT" 8="VSS_2" 9="VSS_3" 10="VDD"
+*MXP 10
+*DFN BMP390
+~!Manufacturer_Name (BOSCH)
+~!Manufacturer_Part_Number (BMP390)
+~!Mouser Part Number (262-BMP390)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMP390?qs=QNEnbhJQKvYQVfvRMgo2YA%3D%3D)
+~!Arrow Part Number (BMP390)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/bmp390/bosch?region=nac)
+~!Link Datasheet (https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp390-ds002.pdf)
+~!Height (0.8mm)
+~!3D_Model (BMP390)
+BMP390
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 

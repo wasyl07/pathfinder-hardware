@@ -1,0 +1,9 @@
+Manufacturer=Infineon
+PartNumber=BGA725L6E6327FTSA1
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=6
+Version=1.5
+Released=2018-10-16 16:02:20
+Downloaded=2024-12-27 20:20:02
+3D=Y

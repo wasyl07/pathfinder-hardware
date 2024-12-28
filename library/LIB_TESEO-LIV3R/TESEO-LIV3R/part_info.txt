@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=TESEO-LIV3R
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=18
+Version=3.3
+Released=2019-06-10 09:14:45
+Downloaded=2024-12-27 14:26:35
+3D=Y

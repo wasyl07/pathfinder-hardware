@@ -1,0 +1,213 @@
+(footprint "LGA-12"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "LGA-12")
+	(tags "Accelerometer")
+	(property "Reference" "AC**"
+		(at -0.38705 -0.06275 0)
+		(layer "F.SilkS")
+		(uuid "566b7f7d-ad0c-4087-8a37-170b16bb643b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "LGA-12"
+		(at -0.38705 -0.06275 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ea029134-6267-45e3-9003-a5422c2fe7ad")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9587a0d1-42a4-491f-9d2f-6a46134024fa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7022ab3d-40a7-48af-88ec-7a559b82fc8b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63ff859f-bcb4-47e6-8b54-957ab6caf329")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1.368 -0.748)
+		(end -1.368 -0.723)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "27ed2c36-5413-4417-ba67-3c4e4e13739a")
+	)
+	(fp_line
+		(start -1 -1)
+		(end 1 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "346cf045-84eb-4d27-b3e8-b48e78ee3f9c")
+	)
+	(fp_line
+		(start -1 1)
+		(end -1 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "35dbcd4d-feb2-4f48-ad7c-521f0bafaa7e")
+	)
+	(fp_line
+		(start 1 -1)
+		(end 1 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "941cab64-e30b-49ee-898a-48ed81e1b91e")
+	)
+	(fp_line
+		(start 1 1)
+		(end -1 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "82e49890-ad2c-4c52-98d4-56848080178a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.38705 -0.06275 0)
+		(layer "F.Fab")
+		(uuid "c4ac4501-9c0a-43bf-9596-3cb371d4a127")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.8 -0.75 90)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2c97e869-fc1f-4aa1-bde0-6092b0cdacee")
+	)
+	(pad "2" smd rect
+		(at -0.8 -0.25 90)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "50ee96e3-91bf-4b8e-9523-4b589a38f3e5")
+	)
+	(pad "3" smd rect
+		(at -0.8 0.25 90)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e778e5f2-5c83-49d9-9090-802e0e31b650")
+	)
+	(pad "4" smd rect
+		(at -0.8 0.75 90)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7ab75a94-5cf0-48a1-8f2d-0030ad3d20ef")
+	)
+	(pad "5" smd rect
+		(at -0.25 0.75 90)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2b09c982-6353-455e-b246-8ecb7cc16029")
+	)
+	(pad "6" smd rect
+		(at 0.25 0.75 90)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4a3af388-2ca1-4196-99b6-39db67efc28e")
+	)
+	(pad "7" smd rect
+		(at 0.8 0.75 90)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8e112aca-93e6-4add-8249-96a85f6f2675")
+	)
+	(pad "8" smd rect
+		(at 0.8 0.25 90)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ac7b7699-e9d6-4c34-94e1-33aed2d119e3")
+	)
+	(pad "9" smd rect
+		(at 0.8 -0.25 90)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b295836e-8705-4d38-b371-53a6058b32ba")
+	)
+	(pad "10" smd rect
+		(at 0.8 -0.75 90)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5312ca3a-445c-47bf-aa84-e5a7667c9687")
+	)
+	(pad "11" smd rect
+		(at 0.25 -0.75 90)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "482681f1-9a4b-4d23-89b3-56ef12ed950a")
+	)
+	(pad "12" smd rect
+		(at -0.25 -0.75 90)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fa2bae81-82f4-464d-9063-14432cd1c35a")
+	)
+	(model "LSM303AHTR.stp"
+		(offset
+			(xyz 0 0 1.019999966)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
+)

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LSM303AHTR'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "STMicroelectronics", "LSM303AHTR" (!) = "", "LGA-12", "Other", "511-LSM303AHTR", "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LSM303AHTR?qs=FNcb6ahWXRzM34XwAoZA0A%3D%3D", "LSM303AHTR", "https://www.arrow.com/en/products/lsm303ahtr/stmicroelectronics?region=nac", "Accelerometers Ultra-compact high-performance e-compass 3D accelerometer and 3D magnetometer module", "https://componentsearchengine.com/Datasheets/1/LSM303AHTR.pdf"
+END_PART
+
+END.

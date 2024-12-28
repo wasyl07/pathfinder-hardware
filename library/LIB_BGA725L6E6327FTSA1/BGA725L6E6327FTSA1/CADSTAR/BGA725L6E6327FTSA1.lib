@@ -1,0 +1,18 @@
+.BGA725L6E6327FTSA1 :1 ;INFINEON - BGA725L6E6327FTSA1 - RF AMP, 20DB, 1.615GHZ, 3.6V, TSLP-6
+BGS12SN6E6327XTSA1
+*STM IC
+*NGS
+*PLB 1="GND" 2="VCC" 3="AO" 4="GNDRF" 5="AI" 6="PON"
+*MXP 6
+*DFN BGA725L6E6327FTSA1
+~!Manufacturer_Name (Infineon)
+~!Manufacturer_Part_Number (BGA725L6E6327FTSA1)
+~!Mouser Part Number (726-BGA725L6E6327FTS)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BGA725L6E6327FTSA1?qs=4MqXaUMeF57lT69yR2PUGQ%3D%3D)
+~!Arrow Part Number (BGA725L6E6327FTSA1)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/bga725l6e6327ftsa1/infineon-technologies-ag?region=nac)
+~!Link Datasheet (https://www.infineon.com/dgdl/Infineon-BGA725L6-DS-v02_00-en.pdf?fileId=db3a30433784a0400137ef9a4d341f23)
+~!Height (-)
+~!3D_Model (BGA725L6E6327FTSA1)
+BGA725L6E6327FTSA1
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TESEO_LIV3R'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "STMicroelectronics", "TESEO-LIV3R" (!) = "", "TESEOLIV3R", "Other", "511-TESEO-LIV3R", "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/TESEO-LIV3R?qs=ZSypp649SOXG7EmhCFcBlw%3D%3D", "TESEO-LIV3R", "https://www.arrow.com/en/products/teseo-liv3r/stmicroelectronics?region=nac", "- RF Receiver BeiDou, GLONASS, GNSS, GPS 1.561GHz, 1.575MHz -163dBm Not Included 18-LCC (9.7x10.1)", "https://www.st.com/resource/en/datasheet/teseo-liv3r.pdf", "2.3 mm"
+END_PART
+
+END.

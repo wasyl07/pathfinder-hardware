@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=ST730M33R
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (5-Pin)
+PinCount=5
+Version=1.1
+Released=2020-09-18 14:34:50
+Downloaded=2024-12-27 15:43:28
+3D=Y

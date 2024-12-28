@@ -1,0 +1,18 @@
+.BMI323 :1 ;3.0 SHUTTLE BOARD DEV KIT BMI323
+BMI323
+*STM IC
+*NGS
+*PLB 1="SDO" 2="NC_1" 3="NC_2" 4="INT1" 5="VDDIO" 6="GNDIO" 7="GND" 8="VDD" 9="INT2" 10="NC_3" 11="NC_4" 12="CSB" 13="SCX" 14="SDX"
+*MXP 14
+*DFN BMI323
+~!Manufacturer_Name (BOSCH)
+~!Manufacturer_Part_Number (BMI323)
+~!Mouser Part Number (262-BMI323)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMI323?qs=By6Nw2ByBD3%2FE1v0UqNQPQ%3D%3D)
+~!Arrow Part Number (BMI323)
+~!Link Arrow Price/Stock (null?region=nac)
+~!Link Datasheet (https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi323-ds000.pdf)
+~!Height (0.87mm)
+~!3D_Model (BMI323)
+BMI323
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 

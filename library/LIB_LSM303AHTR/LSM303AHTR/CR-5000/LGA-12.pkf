@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "LGA-12"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "LGA-12")
+        (spec "default")
+    )
+)

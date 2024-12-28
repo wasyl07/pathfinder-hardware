@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "BMI323"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-11-04-06:33:57)
+    (mountForm default
+        (footprintRef "BMI323")
+        (spec "System")
+    )
+)

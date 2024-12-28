@@ -1,0 +1,18 @@
+.LSM303AHTR :1 ;Accelerometers Ultra-compact high-performance e-compass 3D accelerometer and 3D magnetometer module
+LGA-12
+*STM AC
+*NGS
+*PLB 1="SCL" 2="CS" 3="NC" 4="SDA" 5="C1" 6="GND_1" 7="INT_MAG/DRDY" 8="GND_2" 9="VDD" 10="VDDIO" 11="INT2_XL" 12="INT1_XL"
+*MXP 12
+*DFN LSM303AHTR
+~!Manufacturer_Name (STMicroelectronics)
+~!Manufacturer_Part_Number (LSM303AHTR)
+~!Mouser Part Number (511-LSM303AHTR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LSM303AHTR?qs=FNcb6ahWXRzM34XwAoZA0A%3D%3D)
+~!Arrow Part Number (LSM303AHTR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/lsm303ahtr/stmicroelectronics?region=nac)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/LSM303AHTR.pdf)
+~!Height (-)
+~!3D_Model (LSM303AHTR)
+LSM303AHTR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 

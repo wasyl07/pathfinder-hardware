@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=LSM303AHTR
+PartCategory=Accelerometer
+PackageCategory=Other
+PinCount=12
+Version=2.5
+Released=2017-06-12 14:14:03
+Downloaded=2024-12-27 14:55:52
+3D=Y

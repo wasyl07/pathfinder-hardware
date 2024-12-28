@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "BMP390"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "BMP390")
+        (spec "default")
+    )
+)

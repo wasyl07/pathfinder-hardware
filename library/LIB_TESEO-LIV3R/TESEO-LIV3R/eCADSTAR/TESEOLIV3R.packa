@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TESEO-LIV3R"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-08-05-12:53:08)
+    (mountForm default
+        (footprintRef "TESEOLIV3R")
+        (spec "System")
+    )
+)

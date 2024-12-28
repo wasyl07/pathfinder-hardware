@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'BGA725L6E6327FTSA1'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Infineon", "BGA725L6E6327FTSA1" (!) = "", "BGS12SN6E6327XTSA1", "Other", "726-BGA725L6E6327FTS", "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BGA725L6E6327FTSA1?qs=4MqXaUMeF57lT69yR2PUGQ%3D%3D", "BGA725L6E6327FTSA1", "https://www.arrow.com/en/products/bga725l6e6327ftsa1/infineon-technologies-ag?region=nac", "INFINEON - BGA725L6E6327FTSA1 - RF AMP, 20DB, 1.615GHZ, 3.6V, TSLP-6", "https://www.infineon.com/dgdl/Infineon-BGA725L6-DS-v02_00-en.pdf?fileId=db3a30433784a0400137ef9a4d341f23"
+END_PART
+
+END.

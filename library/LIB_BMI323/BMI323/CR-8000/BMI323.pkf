@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "BMI323"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "BMI323")
+        (spec "default")
+    )
+)
