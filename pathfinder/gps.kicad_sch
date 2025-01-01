@@ -2619,7 +2619,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pathfinder:CONUFL001SMDT"
 			(at 74.93 85.09 0)
 			(effects
 				(font

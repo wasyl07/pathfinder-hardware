@@ -1349,6 +1349,102 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "sensor_fuser_symbol:ST730M33R"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1574,16 +1670,16 @@
 		)
 	)
 	(junction
-		(at 128.27 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "57bb6ec3-1fa8-44de-8623-56283b1458e3")
-	)
-	(junction
 		(at 118.11 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71ac5f24-047a-4bf1-bc37-24e05d26ad6f")
+	)
+	(junction
+		(at 138.43 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "758d99e8-abb1-4182-89f5-6f66310c238f")
 	)
 	(junction
 		(at 173.99 124.46)
@@ -1689,16 +1785,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 105.41) (xy 128.27 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23403b20-fb9a-4f1b-aa72-fa81150222ff")
-	)
-	(wire
-		(pts
 			(xy 180.34 92.71) (xy 170.18 92.71)
 		)
 		(stroke
@@ -1749,16 +1835,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 92.71) (xy 128.27 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39c573f0-0a46-46d0-bf58-ae1df9ab5924")
-	)
-	(wire
-		(pts
 			(xy 138.43 124.46) (xy 138.43 96.52)
 		)
 		(stroke
@@ -1769,16 +1845,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 93.98) (xy 128.27 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d467e84-46c3-40c9-8950-c79a40bca181")
-	)
-	(wire
-		(pts
 			(xy 138.43 124.46) (xy 138.43 127)
 		)
 		(stroke
@@ -1786,16 +1852,6 @@
 			(type default)
 		)
 		(uuid "44423f79-fe20-4c55-8eb8-ad484717e94b")
-	)
-	(wire
-		(pts
-			(xy 128.27 99.06) (xy 128.27 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "521b38f7-9751-4ac7-9e47-6fb517e641d0")
 	)
 	(wire
 		(pts
@@ -1949,7 +2005,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 92.71) (xy 138.43 92.71)
+			(xy 118.11 92.71) (xy 138.43 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2047,75 +2103,16 @@
 		)
 		(uuid "e8f88838-b0c6-41d6-a0ee-0cbd0b59a4d6")
 	)
-	(symbol
-		(lib_id "Device:LED_Small")
-		(at 128.27 102.87 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+	(label "PWR"
+		(at 138.43 80.01 180)
 		(fields_autoplaced yes)
-		(uuid "03d34b53-aced-4161-93b4-770bf746bf9b")
-		(property "Reference" "D4"
-			(at 130.81 101.5364 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right bottom)
 		)
-		(property "Value" "Green"
-			(at 130.81 104.0764 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
-			(at 128.27 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 128.27 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "861b076d-1172-4d4a-bcb5-ca4b90ae9a1b")
-		)
-		(pin "1"
-			(uuid "450717a6-e4ce-4838-b6be-8263776f7ba8")
-		)
-		(instances
-			(project "sensor_fuser"
-				(path "/07668456-3e33-43d1-9c6d-92adc10437c4/b3b8fb8f-5444-4bb9-8b28-7dde226aad59"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "7840163b-bae3-44f6-80ec-1956f72c70d9")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -2313,71 +2310,6 @@
 			(project "sensor_fuser"
 				(path "/07668456-3e33-43d1-9c6d-92adc10437c4/b3b8fb8f-5444-4bb9-8b28-7dde226aad59"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 128.27 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2469b8a9-4c8c-4acc-8607-825adb1a3b0a")
-		(property "Reference" "#PWR016"
-			(at 128.27 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 128.27 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "597481b2-50fc-4a9d-be0d-61890a513ee7")
-		)
-		(instances
-			(project "sensor_fuser"
-				(path "/07668456-3e33-43d1-9c6d-92adc10437c4/b3b8fb8f-5444-4bb9-8b28-7dde226aad59"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -2779,6 +2711,73 @@
 			(project "sensor_fuser"
 				(path "/07668456-3e33-43d1-9c6d-92adc10437c4/b3b8fb8f-5444-4bb9-8b28-7dde226aad59"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 138.43 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67b5362c-ff39-4cb5-9c15-e40b7470b29f")
+		(property "Reference" "#FLG01"
+			(at 140.335 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 142.24 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 138.43 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59f903ec-f339-45fd-ae7f-223ce37a86e5")
+		)
+		(instances
+			(project ""
+				(path "/07668456-3e33-43d1-9c6d-92adc10437c4/b3b8fb8f-5444-4bb9-8b28-7dde226aad59"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -4185,76 +4184,6 @@
 			(project "sensor_fuser"
 				(path "/07668456-3e33-43d1-9c6d-92adc10437c4/b3b8fb8f-5444-4bb9-8b28-7dde226aad59"
 					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 128.27 96.52 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f028c3cf-0079-4b54-ad33-3ddf9becf366")
-		(property "Reference" "R5"
-			(at 130.81 95.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "420"
-			(at 130.81 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 128.27 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 128.27 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b941b45-fec7-4c26-853c-606d4e65dab3")
-		)
-		(pin "2"
-			(uuid "87691a3b-3856-4782-8ffb-cf4ca7522104")
-		)
-		(instances
-			(project "sensor_fuser"
-				(path "/07668456-3e33-43d1-9c6d-92adc10437c4/b3b8fb8f-5444-4bb9-8b28-7dde226aad59"
-					(reference "R5")
 					(unit 1)
 				)
 			)

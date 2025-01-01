@@ -1,0 +1,18 @@
+.TCAN3413DDFR :1 ;CAN Interface IC 3.3-V CAN FD transceiver with flexible IO and standby mode
+SOT65P280X110-8N
+*STM IC
+*NGS
+*PLB 1="TXD" 2="GND" 3="VCC" 4="RXD" 5="VIO" 6="CANL" 7="CANH" 8="STB"
+*MXP 8
+*DFN TCAN3413DDFR
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TCAN3413DDFR)
+~!Mouser Part Number (595-TCAN3413DDFR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TCAN3413DDFR?qs=HFfMDpzxxd24T7a%252BDNN43w%3D%3D)
+~!Arrow Part Number (TCAN3413DDFR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/tcan3413ddfr/texas-instruments?region=nac)
+~!Link Datasheet (https://www.ti.com/lit/gpn/tcan3413)
+~!Height (1.1mm)
+~!3D_Model (TCAN3413DDFR)
+TCAN3413DDFR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 

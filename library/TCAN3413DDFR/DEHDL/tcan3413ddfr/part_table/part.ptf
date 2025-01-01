@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TCAN3413DDFR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "TCAN3413DDFR" (!) = "", "SOT65P280X110-8N", "SOT23 (8-Pin)", "595-TCAN3413DDFR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TCAN3413DDFR?qs=HFfMDpzxxd24T7a%252BDNN43w%3D%3D", "TCAN3413DDFR", "https://www.arrow.com/en/products/tcan3413ddfr/texas-instruments?region=nac", "CAN Interface IC 3.3-V CAN FD transceiver with flexible IO and standby mode", "https://www.ti.com/lit/gpn/tcan3413", "1.1 mm"
+END_PART
+
+END.

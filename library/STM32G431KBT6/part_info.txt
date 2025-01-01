@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=STM32G431KBT6
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat Packages
+PinCount=32
+Version=1.1
+Released=2019-06-21 04:15:22
+Downloaded=2024-12-31 16:56:25
+3D=Y

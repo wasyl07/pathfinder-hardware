@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'STM32H523CEU6'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "STMicroelectronics", "STM32H523CEU6" (!) = "", "QFN50P700X700X60-49N-D", "Quad Flat No-Lead", "511-STM32H523CEU6", "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM32H523CEU6?qs=ZcfC38r4Pot%2FWfU8ati%252BDA%3D%3D", "STM32H523CEU6", "https://www.arrow.com/en/products/stm32h523ceu6/stmicroelectronics?region=nac", "ARM Microcontrollers - MCU High-performance Arm Cortex-M33 MCU 512-Kbyte Flash 272-Kbyte RAM 250 MHz CPU", "https://www.arrow.com/en/products/stm32h523ceu6/stmicroelectronics?region=nac", "0.6 mm"
+END_PART
+
+END.
