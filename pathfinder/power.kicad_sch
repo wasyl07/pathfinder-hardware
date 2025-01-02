@@ -1670,6 +1670,12 @@
 		)
 	)
 	(junction
+		(at 138.43 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2bc06642-b922-4532-9b85-938b82f986a5")
+	)
+	(junction
 		(at 118.11 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1694,22 +1700,10 @@
 		(uuid "8bf63bdc-3370-4e62-adb9-1303e9b9b5f3")
 	)
 	(junction
-		(at 138.43 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8fbcb513-485d-4c68-9720-295ba3622a4c")
-	)
-	(junction
 		(at 138.43 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c2fd5bb-c201-4c0c-b5bd-586630cf64e3")
-	)
-	(junction
-		(at 138.43 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c5deb91b-8a47-4f01-ac1c-83b098178c56")
 	)
 	(junction
 		(at 138.43 92.71)
@@ -1832,16 +1826,6 @@
 			(type default)
 		)
 		(uuid "31bcee30-9fb4-4387-b337-c5eba1a861e5")
-	)
-	(wire
-		(pts
-			(xy 138.43 124.46) (xy 138.43 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d15e0b1-650c-4778-b3f4-28a0cc9ce0b0")
 	)
 	(wire
 		(pts
@@ -2092,6 +2076,16 @@
 			(type default)
 		)
 		(uuid "dee9d516-0008-4a7b-8895-ed3b81c83be3")
+	)
+	(wire
+		(pts
+			(xy 138.43 121.92) (xy 138.43 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e349e3f5-0d70-4e66-baae-e5be85120c7f")
 	)
 	(wire
 		(pts
@@ -4184,6 +4178,72 @@
 			(project "sensor_fuser"
 				(path "/07668456-3e33-43d1-9c6d-92adc10437c4/b3b8fb8f-5444-4bb9-8b28-7dde226aad59"
 					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 138.43 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa493f01-b6e4-446f-921d-d2f9d5998ef3")
+		(property "Reference" "#PWR030"
+			(at 138.43 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 138.43 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 138.43 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3067759c-6413-4a86-8432-28532ebdff6c")
+		)
+		(instances
+			(project "pathfinder"
+				(path "/07668456-3e33-43d1-9c6d-92adc10437c4/b3b8fb8f-5444-4bb9-8b28-7dde226aad59"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
